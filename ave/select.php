@@ -1,5 +1,4 @@
 <?php
-include("../../public_html/intro.php");
 echo("<script type='text/javascript' src='/ave/fromave.js?time=".date("U")."'></script>");
 echo("<script type='text/javascript' src='/ave/gameselect.js?time=".date("U")."'></script>");
 ?>
@@ -47,6 +46,4 @@ echo("
     xobj.send(null);
 </script>
 ");
-
-include("../../public_html/outro.php");
 ?>
