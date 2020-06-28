@@ -28,7 +28,7 @@ $items = "";
 $mode = "PREA";
 
 if(isset($_GET['user'])){
-$file = str_replace("avetoitems.php","../usergames/".$game.".ave",__FILE__);
+$file = str_replace("avetoitems.php","../../public_html/usergames/".$game.".ave",__FILE__);
 } else {
 $file = str_replace("avetoitems.php","games/".$game.".ave",__FILE__);
 }

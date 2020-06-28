@@ -83,7 +83,7 @@ $firstitem = true;
 $mode = "PREA";
 
 if(isset($_GET['user'])){
-$file = str_replace("avetojs.php","../usergames/".$game.".ave",__FILE__);
+$file = str_replace("avetojs.php","../../public_html/usergames/".$game.".ave",__FILE__);
 } else {
 $file = str_replace("avetojs.php","games/".$game.".ave",__FILE__);
 }
